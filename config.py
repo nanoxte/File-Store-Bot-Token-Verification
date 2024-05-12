@@ -16,7 +16,7 @@ API_HASH = os.environ.get("API_HASH", "d538c2e1a687d414f5c3dce7bf4a743c")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002078545756"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1352497419"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5013214170"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ 👋{first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ғɪʟᴇs ɪɴ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @terao2</b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1352497419").split()):
+    for x in (os.environ.get("ADMINS", "5013214170").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -63,7 +63,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "You are not the admin!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @terao2"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1352497419)
+ADMINS.append(5013214170)
 
 LOG_FILE_NAME = "codeflixbot.txt"
 
