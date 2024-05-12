@@ -29,9 +29,9 @@ DB_NAME = os.environ.get("DATABASE_NAME", "tera")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "tnshort.net")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "1e7d4e20e77655f3d0de914127b5310cc4f093ca")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "False")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 864000)) # Add time in seconds
+IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/terao2")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001911851456"))
